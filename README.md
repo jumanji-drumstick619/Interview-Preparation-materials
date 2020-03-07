@@ -1,6 +1,6 @@
 # Interview-Preparation-materials
 
-Dynamic-Programming questions__
-1.tushar's birthday__
-2.N digit numbers with digit sum S__
-3.flipArray__
+Dynamic-Programming questions<br/>
+1.tushar's birthday<br/>
+2.N digit numbers with digit sum S<br/>
+3.flipArray<br/>
