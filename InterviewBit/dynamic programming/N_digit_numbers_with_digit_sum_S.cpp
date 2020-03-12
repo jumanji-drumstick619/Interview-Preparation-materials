@@ -1,19 +1,12 @@
 unsigned long long int lookup[1000][1000]; 
   
 // Memoization based implementation of recursive 
-// function 
 unsigned long long int countRec(int n, int sum) 
 { 
-    // Base case 
     if (n == 0) 
-    return sum == 0; 
-  
-    // If this subproblem is already evaluated, 
-    // return the evaluated value 
+    return sum == 0 ;
     if (lookup[n][sum] != -1) 
-    return lookup[n][sum]; 
-  
-    // Initialize answer 
+    return lookup[n][sum];
     unsigned long long int ans = 0; 
   
     // Traverse through every digit and 
@@ -24,11 +17,7 @@ unsigned long long int countRec(int n, int sum)
         ans = (ans+countRec(n-1, sum-i))%1000000007; 
   
     return lookup[n][sum] = ans; 
-} 
-  
-// This is mainly a wrapper over countRec. It 
-// explicitly handles leading digit and calls 
-// countRec() for remaining n. 
+}  
 unsigned long long int finalCount(int n, int sum) 
 { 
     // Initialize all entries of lookup table 
