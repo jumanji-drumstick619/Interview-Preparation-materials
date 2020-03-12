@@ -1,8 +1,6 @@
 int Solution::solve(const vector<int> &A) {
     int n = A.size();
     int sum = accumulate(A.begin(), A.end(), 0);
-    // dp[i][j].first = max weight possible with weight less than or equal to i using first j items.
-    // dp[i][j].second = number of elements used for max weight
     vector<vector<pair<int, int>>> dp((sum / 2) + 1, vector<pair<int, int>>(n + 1, {0, 0}));
     
     // i = current weight limit
