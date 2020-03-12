@@ -6,3 +6,4 @@ Dynamic-Programming questions<br/>
 3.flipArray<br/>
 4.Max_Sum_Without_Adjacent_Elements<br/>
 5.Edit distance<br/>
+6.longest increasing subsequence<br/>
