@@ -7,3 +7,5 @@ Dynamic-Programming questions<br/>
 4.Max_Sum_Without_Adjacent_Elements<br/>
 5.Edit distance<br/>
 6.longest increasing subsequence<br/>
+7.Repeating subsequences<br/>
+8.distinct subsequences<br/>
